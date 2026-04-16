@@ -32,7 +32,7 @@ const Solution: React.FC = () => {
         <div className="flex flex-col lg:flex-row items-center gap-16">
           <div className="lg:w-1/2">
             <img 
-              src="https://i.ibb.co/0yhBBQ3L/Chat-GPT-Image-16-de-abr-de-2026-18-29-04.png" 
+              src="https://i.ibb.co/Gf7Y1vLw/Chat-GPT-Image-16-de-abr-de-2026-19-02-23.png" 
               alt="Pessoa sorrindo com passaporte" 
               className="rounded-3xl shadow-xl w-full"
               referrerPolicy="no-referrer"

@@ -44,7 +44,7 @@ const Solution: React.FC = () => {
               A Solução Definitiva para sua Aprovação
             </h2>
             <p className="text-lg text-gray-600 mb-10">
-              Eu reuni anos de experiência ajudando viajantes e criei o <span className="font-bold text-blue-600 italic">Manual do Visto Independente</span>. Um método direto ao ponto, focado em quem quer autonomia e economia.
+              Eu reuni anos de experiência ajudando viajantes e criei o <span className="font-bold text-blue-600 italic">Método Oneway</span>. Um sistema direto ao ponto, focado em quem quer autonomia e economia.
             </p>
             
             <div className="space-y-6">

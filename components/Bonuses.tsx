@@ -38,7 +38,7 @@ const Bonuses: React.FC = () => {
         <div className="text-center mb-16">
           <span className="text-[#B31942] font-black tracking-widest uppercase text-sm bg-white px-3 py-1 rounded">Presentes Exclusivos</span>
           <h2 className="text-xl md:text-5xl font-black mt-4 mb-4">Aceleradores de Aprovação:</h2>
-          <p className="text-blue-100 max-w-2xl mx-auto font-medium">Levando o guia principal hoje, você recebe estes 3 bônus totalmente de graça.</p>
+          <p className="text-blue-100 max-w-2xl mx-auto font-medium">Ao garantir o Método Oneway hoje, você recebe estes 3 bônus totalmente de graça.</p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">

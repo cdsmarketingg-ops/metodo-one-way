@@ -22,7 +22,7 @@ const PainPoints: React.FC = () => {
     {
       icon: <TrendingDown className="text-[#B31942]" size={32} />,
       title: "Processo Lento",
-      description: "Sem um guia, você perde tempo precioso com burocracias que poderiam ser simplificadas."
+      description: "Sem o Método Oneway, você perde tempo precioso com burocracias que poderiam ser simplificadas."
     }
   ];
 

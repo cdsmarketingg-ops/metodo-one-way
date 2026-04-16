@@ -7,9 +7,9 @@ const Footer: React.FC = () => {
     <footer className="py-12 bg-slate-900 text-white border-t border-slate-800">
       <div className="container mx-auto px-4">
         <div className="flex flex-col items-center text-center">
-          <h2 className="text-2xl font-black mb-4">Manual do Visto Independente</h2>
+          <h2 className="text-2xl font-black mb-4">Método Oneway</h2>
           <p className="text-slate-400 text-sm max-w-md mb-8">
-            Este produto não garante a aprovação do visto, pois a decisão final cabe exclusivamente ao Consulado Americano. O manual fornece orientações baseadas em experiências de sucesso.
+            Este produto não garante a aprovação do visto, pois a decisão final cabe exclusivamente ao Consulado Americano. O Método Oneway fornece orientações baseadas em experiências de sucesso.
           </p>
           
           <div className="flex gap-8 mb-8">

@@ -30,11 +30,11 @@ const FAQ: React.FC = () => {
     },
     {
       question: "Eu preciso saber inglês para tirar o visto?",
-      answer: "Não! No manual eu te mostro como preencher a DS-160 em português (com as traduções oficiais) e como se portar na entrevista que é feita em português no Brasil."
+      answer: "Não! No Método Oneway eu te mostro como preencher a DS-160 em português (com as traduções oficiais) e como se portar na entrevista que é feita em português no Brasil."
     },
     {
       question: "Serve para qualquer tipo de visto?",
-      answer: "O foco principal deste manual é o Visto de Turismo e Negócios (B1/B2), que é o mais solicitado por brasileiros."
+      answer: "O foco principal do Método Oneway é o Visto de Turismo e Negócios (B1/B2), que é o mais solicitado por brasileiros."
     },
     {
       question: "O pagamento é seguro?",

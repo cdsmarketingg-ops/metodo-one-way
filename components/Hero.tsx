@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
               para Agências
             </h1>
             
-            <p className="text-lg md:text-xl text-slate-200 mb-8 lg:mb-10 max-w-2xl font-medium leading-relaxed opacity-90 mx-auto lg:mx-0">
+            <p className="text-base md:text-lg text-slate-200 mb-8 lg:mb-10 max-w-2xl font-medium leading-relaxed opacity-90 mx-auto lg:mx-0">
               O <span className="text-white font-bold underline decoration-[#B31942]">Método Oneway</span> é o guia definitivo para dominar o formulário DS-160 e a entrevista consular. Economize até <span className="text-white font-bold border-b-2 border-[#B31942]">R$ 2.500</span> em taxas de assessoria.
             </p>
 

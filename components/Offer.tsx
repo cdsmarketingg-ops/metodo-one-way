@@ -19,8 +19,8 @@ const Offer: React.FC = () => {
           <p className="text-gray-500 max-w-2xl mx-auto">Garanta sua vaga no Método Oneway com 50% de desconto por tempo limitado.</p>
         </div>
 
-        <div className="max-w-5xl mx-auto overflow-hidden">
-          <div className="flex flex-col lg:flex-row bg-[#0A3161] rounded-[2.5rem] md:rounded-[4rem] shadow-2xl shadow-blue-900/20 border border-white/10">
+        <div className="max-w-5xl mx-auto">
+          <div className="flex flex-col lg:flex-row bg-[#0A3161] rounded-[2rem] md:rounded-[4rem] shadow-2xl shadow-blue-900/20 border border-white/10 overflow-hidden isolate">
             
             {/* Left Column: Value Stack */}
             <div className="lg:w-7/12 p-8 md:p-16 bg-[#0e3b72]/30">
@@ -79,9 +79,9 @@ const Offer: React.FC = () => {
                   Pagamento único. <br/>Acesso Vitalício.
                 </p>
 
-                <button className="w-full py-6 md:py-8 bg-[#B31942] hover:bg-[#911435] text-white font-black text-xl md:text-2xl rounded-2xl transition-all transform hover:scale-105 shadow-[0_20px_50px_rgba(179,25,66,0.3)] mb-8 uppercase italic tracking-tighter flex items-center justify-center gap-3">
+                <button className="w-full py-5 md:py-8 bg-[#B31942] hover:bg-[#911435] text-white font-black text-lg md:text-2xl rounded-2xl transition-all transform hover:scale-105 shadow-[0_20px_50px_rgba(179,25,66,0.3)] mb-8 uppercase italic tracking-tighter flex items-center justify-center gap-3 px-4">
                   QUERO MEU VISTO AGORA
-                  <Star size={24} fill="white" />
+                  <Star size={20} fill="white" className="flex-shrink-0" />
                 </button>
 
                 <div className="space-y-4">

@@ -68,18 +68,19 @@ const Hero: React.FC = () => {
               {/* Glow de fundo patriótico */}
               <div className="absolute -inset-4 bg-[#B31942] rounded-[3rem] blur-[60px] opacity-20 group-hover:opacity-30 transition-opacity"></div>
               
-              <div className="relative z-10 p-1.5 md:p-4 bg-white/10 backdrop-blur-md rounded-[1rem] md:rounded-[3rem] border border-white/20 shadow-2xl overflow-hidden aspect-video flex items-center justify-center">
-                <video 
-                  ref={videoRef}
-                  src="https://eliabcampos.com/wp-content/uploads/2026/04/VSL-MAX.mov" 
-                  controls={isPlaying}
-                  playsInline 
-                  className="w-full h-full rounded-[0.8rem] md:rounded-[2.5rem] object-contain"
-                  onPlay={() => setIsPlaying(true)}
-                  onPause={() => setIsPlaying(false)}
-                >
-                  Seu navegador não suporta vídeos.
-                </video>
+                <div className="relative z-10 p-1.5 md:p-4 bg-slate-900 rounded-[1rem] md:rounded-[3rem] border border-white/20 shadow-2xl overflow-hidden aspect-video flex items-center justify-center">
+                  <video 
+                    ref={videoRef}
+                    src="https://eliabcampos.com/wp-content/uploads/2026/04/VSL-MAX.mov#t=0.001" 
+                    controls={isPlaying}
+                    preload="metadata"
+                    playsInline 
+                    className="w-full h-full rounded-[0.8rem] md:rounded-[2.5rem] object-contain bg-black"
+                    onPlay={() => setIsPlaying(true)}
+                    onPause={() => setIsPlaying(false)}
+                  >
+                    Seu navegador não suporta vídeos.
+                  </video>
 
                 {!isPlaying && (
                   <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/40 z-20 group-hover:bg-black/30 transition-all">

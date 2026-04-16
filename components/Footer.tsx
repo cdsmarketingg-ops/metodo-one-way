@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
           
           <div className="flex items-center gap-2 text-[10px] text-slate-600 border-t border-slate-800 pt-8 w-full justify-center">
             <Shield size={12} />
-            <span>COPYRIGHT © 2024 - MAX MILLIAN MARTINS - TODOS OS DIREITOS RESERVADOS.</span>
+            <span>COPYRIGHT © 2026 - MAX MILLIAN MARTINS - TODOS OS DIREITOS RESERVADOS.</span>
           </div>
         </div>
       </div>

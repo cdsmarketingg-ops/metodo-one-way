@@ -8,6 +8,7 @@ const Offer: React.FC = () => {
     { title: "Guia Mestre DS-160", desc: "Como preencher sem cometer erros fatais." },
     { title: "Segredos da Entrevista Consular", desc: "Script das perguntas e como se portar." },
     { title: "Checklist de Documentação", desc: "Não esqueça nada no dia do Consulado." },
+    { title: "Grupo de WhatsApp VIP", desc: "Acesso à nossa comunidade exclusiva de alunos." },
   ];
 
   return (
@@ -48,7 +49,7 @@ const Offer: React.FC = () => {
                       <Star size={24} fill="white" />
                     </div>
                     <div>
-                      <h4 className="font-black text-sm md:text-base uppercase italic">+ TODOS OS 3 BÔNUS EXCLUSIVOS</h4>
+                      <h4 className="font-black text-sm md:text-base uppercase italic">+ TODOS OS 4 BÔNUS EXCLUSIVOS</h4>
                       <p className="text-[10px] md:text-xs opacity-80 uppercase tracking-widest">Incluso apenas para a oferta atual</p>
                     </div>
                   </div>
@@ -79,10 +80,15 @@ const Offer: React.FC = () => {
                   Pagamento único. <br/>Acesso Vitalício.
                 </p>
 
-                <button className="w-full py-5 md:py-8 bg-[#B31942] hover:bg-[#911435] text-white font-black text-lg md:text-2xl rounded-2xl transition-all transform hover:scale-105 shadow-[0_20px_50px_rgba(179,25,66,0.3)] mb-8 uppercase italic tracking-tighter flex items-center justify-center gap-3 px-4">
+                <a 
+                  href="https://pay.hotmart.com/F104259667H?checkoutMode=10&hideBillet=1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-full py-5 md:py-8 bg-[#B31942] hover:bg-[#911435] text-white font-black text-lg md:text-2xl rounded-2xl transition-all transform hover:scale-105 shadow-[0_20px_50px_rgba(179,25,66,0.3)] mb-8 uppercase italic tracking-tighter flex items-center justify-center gap-3 px-4 no-underline"
+                >
                   QUERO MEU VISTO AGORA
                   <Star size={20} fill="white" className="flex-shrink-0" />
-                </button>
+                </a>
 
                 <div className="space-y-4">
                   <div className="flex flex-wrap items-center justify-center gap-4 opacity-50 grayscale brightness-200 grayscale-0">

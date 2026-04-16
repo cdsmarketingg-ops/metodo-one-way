@@ -39,7 +39,7 @@ const PainPoints: React.FC = () => {
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {pains.map((pain, index) => (
-            <div key={index} className="bg-gray-50 p-8 rounded-[2rem] border-2 border-transparent hover:border-[#B31942]/10 hover:bg-white hover:shadow-2xl transition-all duration-300">
+            <div key={index} className="bg-white p-8 rounded-[2.5rem] shadow-[0_15px_40px_rgba(0,0,0,0.08)] border border-gray-50 flex flex-col items-start transition-all hover:shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
               <div className="mb-6 bg-red-50 w-16 h-16 rounded-2xl flex items-center justify-center">
                 {pain.icon}
               </div>

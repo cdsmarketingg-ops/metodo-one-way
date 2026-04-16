@@ -6,7 +6,7 @@ const Guarantee: React.FC = () => {
   return (
     <section className="py-24 bg-gray-50">
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto flex flex-col md:flex-row items-center gap-12 bg-white p-10 md:p-16 rounded-[3rem] shadow-sm border border-gray-100">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12 bg-white p-10 md:p-16 rounded-[4rem] shadow-[0_30px_70px_rgba(0,0,0,0.08)] border border-white">
           <div className="flex-shrink-0">
             <div className="relative">
               <div className="absolute inset-0 bg-blue-500 rounded-full blur-xl opacity-20"></div>

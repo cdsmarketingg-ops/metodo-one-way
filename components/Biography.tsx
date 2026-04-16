@@ -26,11 +26,11 @@ const Biography: React.FC = () => {
               Ele acredita que o acesso aos Estados Unidos não deve ser um privilégio de quem pode pagar agências caras, mas sim um direito de quem se prepara corretamente.
             </p>
             <div className="flex gap-4">
-               <div className="text-center bg-gray-50 p-6 rounded-2xl flex-1 border border-gray-100">
+               <div className="text-center bg-white p-6 rounded-3xl flex-1 border border-gray-50 shadow-[0_15px_30px_rgba(0,0,0,0.06)]">
                   <p className="text-3xl font-black text-[#B31942]">2.5k</p>
                   <p className="text-[10px] text-gray-400 uppercase font-black tracking-widest mt-1">Alunos</p>
                </div>
-               <div className="text-center bg-gray-50 p-6 rounded-2xl flex-1 border border-gray-100">
+               <div className="text-center bg-white p-6 rounded-3xl flex-1 border border-gray-50 shadow-[0_15px_30px_rgba(0,0,0,0.06)]">
                   <p className="text-3xl font-black text-[#0A3161]">98%</p>
                   <p className="text-[10px] text-gray-400 uppercase font-black tracking-widest mt-1">Aprovação</p>
                </div>

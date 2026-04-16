@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Gift, FileText, Layout, Star } from 'lucide-react';
+import { Gift, FileText, Layout, Star, MessageCircle } from 'lucide-react';
 
 const Bonuses: React.FC = () => {
   const bonuses = [
@@ -24,6 +24,13 @@ const Bonuses: React.FC = () => {
       value: "R$ 17,00",
       icon: <Gift size={40} className="text-white" />,
       desc: "Não esqueça nada importante na hora de viajar para os Estados Unidos."
+    },
+    {
+      tag: "BÔNUS 04",
+      title: "Grupo VIP de Alunos",
+      value: "R$ 97,00",
+      icon: <MessageCircle size={40} className="text-white" />,
+      desc: "Acesso ao nosso grupo exclusivo no WhatsApp para suporte e networking."
     }
   ];
 
@@ -38,10 +45,10 @@ const Bonuses: React.FC = () => {
         <div className="text-center mb-16">
           <span className="text-[#B31942] font-black tracking-widest uppercase text-sm bg-white px-3 py-1 rounded">Presentes Exclusivos</span>
           <h2 className="text-xl md:text-5xl font-black mt-4 mb-4">Aceleradores de Aprovação:</h2>
-          <p className="text-blue-100 max-w-2xl mx-auto font-medium">Ao garantir o Método Oneway hoje, você recebe estes 3 bônus totalmente de graça.</p>
+          <p className="text-blue-100 max-w-2xl mx-auto font-medium">Ao garantir o Método Oneway hoje, você recebe estes 4 bônus totalmente de graça.</p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
           {bonuses.map((bonus, idx) => (
             <div key={idx} className="bg-[#0e3b72] p-8 rounded-[2.5rem] border-2 border-white/5 relative group hover:border-[#B31942] transition-all duration-500">
               <div className="absolute -top-4 left-8 bg-[#B31942] text-white px-4 py-1.5 rounded-full text-[10px] font-black tracking-widest">

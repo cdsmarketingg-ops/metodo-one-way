@@ -22,7 +22,7 @@ const SocialProof: React.FC = () => {
 
         <div className="max-w-2xl mx-auto">
           {testimonials.map((t, i) => (
-            <div key={i} className="bg-white p-8 md:p-12 rounded-3xl shadow-sm border border-gray-100 flex flex-col items-center text-center">
+            <div key={i} className="bg-white p-8 md:p-12 rounded-[2.5rem] shadow-[0_20px_60px_rgba(0,0,0,0.1)] border border-white flex flex-col items-center text-center">
               <Quote size={48} className="text-blue-500/20 mb-6" />
               <p className="text-lg md:text-2xl text-slate-700 mb-8 italic font-medium leading-relaxed">"{t.text}"</p>
               <img 

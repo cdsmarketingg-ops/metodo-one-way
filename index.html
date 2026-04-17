@@ -3,6 +3,30 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <script>
+      // Fix for "Converting circular structure to JSON" error in React environments
+      (function() {
+        const originalStringify = JSON.stringify;
+        JSON.stringify = function(value, replacer, space) {
+          try {
+            return originalStringify(value, replacer, space);
+          } catch (e) {
+            if (e.message && (e.message.includes('circular') || e.message.includes('cyclic'))) {
+              const cache = new Set();
+              return originalStringify(value, function(key, val) {
+                if (typeof val === 'object' && val !== null) {
+                  if (cache.has(val)) return;
+                  cache.add(val);
+                }
+                if (key.startsWith('__reactFiber') || key.startsWith('__reactProps')) return undefined;
+                return replacer ? replacer(key, val) : val;
+              }, space);
+            }
+            throw e;
+          }
+        };
+      })();
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manual do Visto Independente</title>
     <script src="https://cdn.tailwindcss.com"></script>

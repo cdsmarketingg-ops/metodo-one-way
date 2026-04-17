@@ -73,7 +73,7 @@ const Offer: React.FC = () => {
 
                 <div className="flex items-center justify-center gap-1 mb-2">
                   <span className="text-xl md:text-2xl font-black text-[#B31942] italic mt-4">R$</span>
-                  <span className="text-7xl md:text-8xl font-black text-white tracking-tighter italic">47<span className="text-3xl">,00</span></span>
+                  <span className="text-7xl md:text-8xl font-black text-white tracking-tighter italic">47<span className="text-3xl">,90</span></span>
                 </div>
                 
                 <p className="text-blue-100/60 text-xs md:text-sm font-bold uppercase tracking-[0.2em] mb-8 leading-relaxed">

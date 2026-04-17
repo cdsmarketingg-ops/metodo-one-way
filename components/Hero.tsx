@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
                 <div className="flex items-center gap-1 mb-2">
                   {[1,2,3,4,5].map(i => <Star key={i} size={18} fill="#FFD700" className="text-[#FFD700]" />)}
                 </div>
-                <p className="text-xs md:text-sm text-slate-300 font-bold uppercase tracking-widest">+2.500 brasileiros aprovados</p>
+                <p className="text-xs md:text-sm text-slate-300 font-bold uppercase tracking-widest">Muitos brasileiros aprovados</p>
               </div>
             </div>
           </div>
@@ -115,7 +115,7 @@ const Hero: React.FC = () => {
               <div className="flex items-center gap-1 mb-2">
                 {[1,2,3,4,5].map(i => <Star key={i} size={18} fill="#FFD700" className="text-[#FFD700]" />)}
               </div>
-              <p className="text-xs md:text-sm text-slate-300 font-bold uppercase tracking-widest">+2.500 brasileiros aprovados</p>
+              <p className="text-xs md:text-sm text-slate-300 font-bold uppercase tracking-widest">Muitos brasileiros aprovados</p>
             </div>
           </div>
           

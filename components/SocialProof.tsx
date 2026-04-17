@@ -17,7 +17,7 @@ const SocialProof: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-xl md:text-4xl font-extrabold text-slate-900 mb-4">O que dizem os nossos alunos:</h2>
-          <p className="text-gray-600">+2.500 pessoas já realizaram o sonho do visto com nossa ajuda.</p>
+          <p className="text-gray-600">Muitos brasileiros aprovados já realizaram o sonho do visto com nossa ajuda.</p>
         </div>
 
         <div className="max-w-2xl mx-auto">
